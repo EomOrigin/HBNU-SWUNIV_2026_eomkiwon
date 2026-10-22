@@ -1,6 +1,6 @@
 # 개발 과정과 개인 기여
 
-[포트폴리오로 돌아가기](../README.md)
+[SPOT-DETR 프로젝트 페이지](../SPOT-DETR.md) · [홈](../README.md)
 
 ## 연구 수행 범위
 

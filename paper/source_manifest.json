@@ -28,6 +28,12 @@
       "asset_sha256": "0b57d1b9a818216c97cd5c875c5de9f869160016cf3465c7d47ec75f636d5d4b"
     },
     {
+      "asset": "assets/figures/Fig5_qualitative.png",
+      "source": "overleaf/Fig5_qualitative.pdf",
+      "source_sha256": "6b23bdecfe8ebd4bd0af749fa9d0429c9d8dfce87abf23964ca0ca9be1ccdd0f",
+      "asset_sha256": "7edb71ecc03bda6751278e75d927578288049f6a89cd65c892895d5b5ac8f9e2"
+    },
+    {
       "asset": "assets/figures/Fig7_featmap.png",
       "source": "overleaf/Fig7_featmap.pdf",
       "source_sha256": "a518f5b357f1f62206b5427cce0ef902ed37ba0fc03122fa56f2e6ccfba2b4ca",

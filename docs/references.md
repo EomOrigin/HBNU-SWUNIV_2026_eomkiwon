@@ -1,6 +1,6 @@
 # 참고 자료
 
-[포트폴리오로 돌아가기](../README.md)
+[SPOT-DETR 프로젝트 페이지](../SPOT-DETR.md) · [홈](../README.md)
 
 ## 대표 연구
 
@@ -18,11 +18,3 @@
 | SMWG-DETR, “DETR Enhanced by Fourier Spectral Modulation and Wavelet-Guided Fusion for Tiny Object Detection” | 기반 탐지기; 기존 스펙트럼 변조·웨이블릿 융합·잡음 제거 학습 |
 
 비교 모델과 방법론의 전체 참고문헌은 연구 원고의 참고문헌 절에 있습니다. 표의 비교값은 원 논문의 최고 성능을 모아 놓은 값이 아니라, SPOT-DETR 원고가 공통 프로토콜에서 수행했다고 보고한 실험값입니다.
-
-## 관련 개인 프로젝트
-
-- [2025 컴퓨터공학과 포트폴리오](https://github.com/EomOrigin/HBNU-SWUNIV_2025_eomkiwon): 눈·코·입 영역 가중치를 활용한 ViT 기반 딥페이크 탐지 연구
-- [FedVLS 재현 프로젝트](https://github.com/EomOrigin/FedVLS_Reproducibility_project): 연합학습 방법의 실행 환경과 재현 실험 정리
-- [개인 연구 소개](https://github.com/EomOrigin/Kiwonofficial): 관심 분야·연구 활동
-
-위 링크는 관련 활동이며, 이번 대회 포트폴리오의 대표 프로젝트는 SPOT-DETR입니다.

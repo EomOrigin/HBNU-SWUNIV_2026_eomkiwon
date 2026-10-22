@@ -1,6 +1,6 @@
 # 구현 환경과 재현 범위
 
-[포트폴리오로 돌아가기](../README.md)
+[SPOT-DETR 프로젝트 페이지](../SPOT-DETR.md) · [홈](../README.md)
 
 ## 이 저장소에서 확인할 수 있는 것
 
@@ -41,7 +41,7 @@ python3 -m pip install matplotlib
 python3 scripts/plot_results.py
 ```
 
-출력은 `assets/charts/accuracy_comparison.png`와 `accuracy_comparison.svg`입니다. 이 명령은 **원고 표의 시각화 재생성**이며, 모델 학습이나 평가를 수행하지 않습니다.
+출력은 원고 표 6을 그린 `assets/charts/ap_latency_aitodv2.png`와 `ap_latency_aitodv2.svg`입니다. 이 명령은 원고 표를 다시 그릴 뿐이며, 모델 학습이나 평가를 수행하지 않습니다.
 
 ## 모델 실험 전체를 재현하려면 필요한 자료
 

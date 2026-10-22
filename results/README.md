@@ -1,6 +1,6 @@
 # 실험표 CSV
 
-[포트폴리오로 돌아가기](../README.md) · [실험 설명](../docs/experiments.md)
+[SPOT-DETR 프로젝트 페이지](../SPOT-DETR.md) · [홈](../README.md) · [실험 설명](../docs/experiments.md)
 
 출처는 `SPOT_DETR_final_20261022.zip` 안의 한국어 원고 `SPOT_DETR_Manuscript_KR.md`입니다. **원고 보고값을 전사한 자료**이며, 원시 학습 로그·평가 결과 파일은 아닙니다.
 

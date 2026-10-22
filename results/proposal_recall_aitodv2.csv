@@ -1,0 +1,6 @@
+dataset,configuration,top_k,iou_threshold,vt,t,s,m,statistic,source_table
+AI-TOD-v2,baseline_grid,900,0.5,38.5,84.5,90.3,90.2,analysis_model,5
+AI-TOD-v2,x2_grid,900,0.5,62.8,91.2,93.0,87.6,analysis_model,5
+AI-TOD-v2,spot_all,900,0.5,67.1,90.8,89.8,85.5,analysis_model,5
+AI-TOD-v2,spot_atom_only,900,0.5,67.1,90.8,88.8,78.9,analysis_model,5
+AI-TOD-v2,spot_grid_only,900,0.5,0.0,2.2,18.4,53.5,analysis_model,5

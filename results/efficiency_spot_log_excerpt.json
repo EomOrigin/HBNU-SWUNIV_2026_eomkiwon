@@ -1,0 +1,34 @@
+{
+  "source": "work_dirs/efficiency_20261011/logs/v2_Ours.log, [ROW] record",
+  "kind": "selected_fields_from_original_log",
+  "record": {
+    "name": "v2_Ours",
+    "dataset": "v2",
+    "framework": "mmdet3",
+    "params_M": 58.283312,
+    "params_hidden_M": 0.0,
+    "input_shape": [
+      3,
+      800,
+      800
+    ],
+    "gflops_scope": "tensor-mode _forward (full detector, no postprocessing)",
+    "gflops": 382.38944156,
+    "gflops_deform_sampling": 0.0884736,
+    "gflops_custom_ops": 0.9897935600000001,
+    "suspicious_uncounted": {
+      "aten::meshgrid": 5
+    },
+    "ms_mean": 109.41952608618885,
+    "ms_median": 108.1727264681831,
+    "ms_std": 2.51126257920432,
+    "fps": 9.139136640130467,
+    "timed_images": 500,
+    "warmup": 10,
+    "peak_mem_alloc_GiB": 2.6262497901916504,
+    "peak_mem_reserved_GiB": 3.5078125,
+    "torch": "2.1.2+cu118",
+    "gpu": "NVIDIA RTX A6000",
+    "tf32": false
+  }
+}

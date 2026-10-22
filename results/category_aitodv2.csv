@@ -1,0 +1,11 @@
+dataset,model,AI,AI_std,BR,BR_std,ST,ST_std,SH,SH_std,SP,SP_std,VE,VE_std,PE,PE_std,WM,WM_std,statistic,source_table
+AI-TOD-v2,DNTR,26.9,,12.8,,34.7,,45.6,,13.1,,24.2,,9.5,,5.1,,reported_variance_unavailable,3
+AI-TOD-v2,ORFENet,27.6,,20.7,,35.8,,51.8,,15.7,,27.6,,11.2,,10.1,,reported_variance_unavailable,3
+AI-TOD-v2,LTDNet,23.4,,20.0,,34.4,,45.0,,17.5,,27.3,,9.6,,7.2,,reported_variance_unavailable,3
+AI-TOD-v2,DINO,34.3,,21.0,,37.1,,59.6,,17.3,,28.5,,17.5,,8.0,,reported_variance_unavailable,3
+AI-TOD-v2,RT-DETR,37.5,,22.4,,35.8,,62.8,,19.8,,31.6,,17.9,,8.7,,reported_variance_unavailable,3
+AI-TOD-v2,RT-DETRv2,37.3,,19.8,,34.6,,61.5,,18.3,,29.7,,15.3,,6.6,,reported_variance_unavailable,3
+AI-TOD-v2,DQ-DETR,40.4,,23.3,,42.5,,46.1,,23.0,,32.7,,18.4,,15.2,,reported_variance_unavailable,3
+AI-TOD-v2,Dome-DETR,32.0,,21.1,,40.6,,42.1,,17.3,,31.9,,15.9,,8.6,,reported_variance_unavailable,3
+AI-TOD-v2,SMWG-DETR,37.0,,24.2,,36.1,,63.0,,18.5,,32.0,,18.7,,9.1,,reported_variance_unavailable,3
+AI-TOD-v2,SPOT-DETR,38.9,0.2,26.3,0.8,40.6,0.1,66.5,0.3,21.0,0.5,37.2,0.1,24.0,0.3,12.2,1.5,mean_std_3_seeds,3

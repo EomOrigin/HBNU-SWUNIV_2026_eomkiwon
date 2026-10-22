@@ -1,0 +1,11 @@
+dataset,model,AP,AP_std,APvt,APvt_std,APt,APt_std,APs,APs_std,statistic,source_table
+AI-TOD-v2,DNTR,21.5,,8.9,,21.6,,25.6,,reported_variance_unavailable,1
+AI-TOD-v2,ORFENet,25.1,,10.7,,25.1,,29.3,,reported_variance_unavailable,1
+AI-TOD-v2,LTDNet,23.0,,8.9,,23.6,,27.4,,reported_variance_unavailable,1
+AI-TOD-v2,DINO,27.9,,15.0,,28.2,,32.7,,reported_variance_unavailable,1
+AI-TOD-v2,RT-DETR,29.6,,16.1,,30.2,,32.9,,reported_variance_unavailable,1
+AI-TOD-v2,RT-DETRv2,27.9,,14.3,,28.2,,31.2,,reported_variance_unavailable,1
+AI-TOD-v2,DQ-DETR,30.2,,15.6,,30.4,,35.7,,reported_variance_unavailable,1
+AI-TOD-v2,Dome-DETR,26.2,,11.6,,25.9,,31.6,,reported_variance_unavailable,1
+AI-TOD-v2,SMWG-DETR,29.8,,15.7,,30.5,,33.9,,reported_variance_unavailable,1
+AI-TOD-v2,SPOT-DETR,33.3,0.3,20.8,0.3,34.5,0.7,36.1,0.2,mean_std_3_seeds,1

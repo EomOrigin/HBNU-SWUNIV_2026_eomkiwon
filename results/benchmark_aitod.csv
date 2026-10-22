@@ -1,0 +1,6 @@
+dataset,model,AP,AP_std,APvt,APvt_std,APt,APt_std,APs,APs_std,statistic,source_table
+AI-TOD,ORFENet,24.6,,11.7,,25.1,,29.2,,reported_variance_unavailable,2
+AI-TOD,LTDNet,23.5,,10.6,,24.8,,28.3,,reported_variance_unavailable,2
+AI-TOD,DQ-DETR,31.0,,17.1,,31.5,,36.8,,reported_variance_unavailable,2
+AI-TOD,SMWG-DETR,32.1,,17.6,,33.2,,37.2,,reported_variance_unavailable,2
+AI-TOD,SPOT-DETR,37.6,0.1,23.3,0.4,39.3,0.2,40.4,0.3,mean_std_3_seeds,2

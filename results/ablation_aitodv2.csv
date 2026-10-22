@@ -1,0 +1,5 @@
+dataset,configuration,includes_X2,AP,APvt,APt,APs,statistic,source_table
+AI-TOD-v2,기준 모델,no,29.8,15.7,30.5,33.9,analysis_model,4
+AI-TOD-v2,+SGS,yes,33.2,20.7,34.3,36.0,analysis_model,4
+AI-TOD-v2,+ATOM,yes,33.8,20.0,34.9,36.3,analysis_model,4
+AI-TOD-v2,+SGS +ATOM,yes,33.7,21.2,35.3,36.3,analysis_model,4

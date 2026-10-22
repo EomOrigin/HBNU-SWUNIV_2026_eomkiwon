@@ -4,15 +4,13 @@
 
 국립한밭대학교 컴퓨터공학과 학부생 · AIM Lab 학부연구생
 
-[Email](mailto:eomkiwon1528@gmail.com) &nbsp;/&nbsp; [GitHub](https://github.com/EomOrigin) &nbsp;/&nbsp; [Kaggle](https://www.kaggle.com/kiwoneom) &nbsp;/&nbsp; [DACON](https://dacon.io/myprofile/497780/home)
+[Email](mailto:eomkiwon1528@gmail.com) &nbsp;/&nbsp; [CV](CV.md) &nbsp;/&nbsp; [GitHub](https://github.com/EomOrigin) &nbsp;/&nbsp; [Kaggle](https://www.kaggle.com/kiwoneom) &nbsp;/&nbsp; [DACON](https://dacon.io/myprofile/497780/home)
 
 **한국어** | [English](README_EN.md)
 
 </div>
 
-국립한밭대학교 컴퓨터공학과 학부생이고, 2024년 2월부터 AIM Lab에서 학부연구생으로 연구하고 있습니다. 위성·항공 영상에서 몇 픽셀 크기의 객체를 찾아내는 문제를 연구하며, 광학 영상과 SAR 영상을 함께 다룹니다. 지금까지 KCI 등재지에 제1저자 논문 2편을 게재했고, 공동 제1저자로 쓴 SPOT-DETR 원고는 투고를 준비하고 있습니다.
-
-<sub>2026학년도 국립한밭대학교 컴퓨터공학과 포트폴리오경진대회 출품작</sub>
+국립한밭대학교 컴퓨터공학과 학부생이고, 2024년 2월부터 장한얼 교수님의 AIM Lab에서 학부연구생으로 연구하고 있습니다. 위성·항공 영상에서 몇 픽셀 크기의 객체를 찾아내는 문제를 연구하며, 광학 영상과 SAR 영상을 함께 다룹니다. 지금까지 KCI 등재지에 제1저자 논문 2편을 게재했고, 공동 제1저자로 쓴 SPOT-DETR 원고는 투고를 준비하고 있습니다.
 
 ## 소식
 
@@ -40,7 +38,7 @@
 
 ## 논문
 
-원격탐사 영상의 객체 탐지와 분할을 주로 연구합니다. <sup>†</sup>는 공동 제1저자입니다.
+원격탐사 영상의 객체 탐지와 분할을 연구합니다. 작은 객체를 놓치는 원인을 특징 해상도, 후보 위치, 센서 잡음처럼 측정할 수 있는 단위로 나누고, 그 원인을 직접 겨냥하는 구조를 설계하는 데 관심이 있습니다. <sup>†</sup>는 공동 제1저자입니다.
 
 <table>
 <tr>
@@ -82,11 +80,25 @@
 - **예선 2위 / 13팀** (2024), **예선 5위 / 17팀** (2025), SW중심대학 공동 AI 경진대회
 - **2위**, 위성 영상 구름 분할 Kaggle 챌린지 (국립한밭대학교 AI 교과), 2025 · [대회](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
 
+## 프로젝트
+
+- **위성 영상 구름 분할** (팀장, 2025) · 두꺼운 구름, 얇은 구름, 구름 그림자 3종을 분할해 교과 Kaggle 챌린지 2위(0.8555) · [대회](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
+- **얼굴 위조 판별 분류** (팀장, 2025) · 실제 얼굴과 위조 얼굴을 정확도 98.33%로 구분 · [대회](https://www.kaggle.com/competitions/image-classification-hbnu-ai-2025-spring/overview)
+- **얼굴 인식 스마트 도어락** (팀장, 2024) · Raspberry Pi 4에서 얼굴을 인식해 잠금장치를 제어하고 출입 기록을 남기는 장치 · Python, OpenCV, SQLite, MQTT
+
 ## 이력
 
-- **2024.02 – 현재** &nbsp; 학부연구생, AIM Lab, 국립한밭대학교
+- **2024.02 – 현재** &nbsp; 학부연구생, AIM Lab, 국립한밭대학교 (지도교수: 장한얼)
 - **2023.03 – 현재** &nbsp; 학사과정, 국립한밭대학교 컴퓨터공학과
+
+자세한 내용은 [CV](CV.md)에 있고, [PDF](cv/KiwonEom_CV_KR.pdf)로도 받을 수 있습니다.
+
+## 기술
+
+- **언어** &nbsp; Python, C, Java
+- **딥러닝** &nbsp; PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn
+- **실험 환경** &nbsp; Linux 다중 GPU 서버, Docker, Git, Weights & Biases
 
 ---
 
-<sub>페이지 구성은 [Jon Barron](https://jonbarron.info/)의 학술 홈페이지 형식을 참고했습니다.</sub>
+<sub>2026학년도 국립한밭대학교 컴퓨터공학과 포트폴리오경진대회 출품작 · 페이지 구성은 [Jon Barron](https://jonbarron.info/)의 학술 홈페이지 형식을 참고했습니다.</sub>

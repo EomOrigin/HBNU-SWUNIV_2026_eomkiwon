@@ -4,15 +4,13 @@
 
 Undergraduate student, Computer Engineering, Hanbat National University · Undergraduate researcher, AIM Lab
 
-[Email](mailto:eomkiwon1528@gmail.com) &nbsp;/&nbsp; [GitHub](https://github.com/EomOrigin) &nbsp;/&nbsp; [Kaggle](https://www.kaggle.com/kiwoneom) &nbsp;/&nbsp; [DACON](https://dacon.io/myprofile/497780/home)
+[Email](mailto:eomkiwon1528@gmail.com) &nbsp;/&nbsp; [CV](CV_EN.md) &nbsp;/&nbsp; [GitHub](https://github.com/EomOrigin) &nbsp;/&nbsp; [Kaggle](https://www.kaggle.com/kiwoneom) &nbsp;/&nbsp; [DACON](https://dacon.io/myprofile/497780/home)
 
 [한국어](README.md) | **English**
 
 </div>
 
-I am an undergraduate student in Computer Engineering at Hanbat National University and have been an undergraduate researcher in the AIM Lab since February 2024. I work on finding objects that are only a few pixels wide in satellite and aerial images, using both optical and SAR data. I have published two first-author papers in KCI-indexed journals, and I am preparing to submit SPOT-DETR, a co-first-author manuscript on tiny object detection.
-
-<sub>Entry for the 2026 Portfolio Competition of the Department of Computer Engineering, Hanbat National University</sub>
+I am an undergraduate student in Computer Engineering at Hanbat National University and have been an undergraduate researcher in the AIM Lab, advised by Prof. Haneol Jang, since February 2024. I work on finding objects that are only a few pixels wide in satellite and aerial images, using both optical and SAR data. I have published two first-author papers in KCI-indexed journals, and I am preparing to submit SPOT-DETR, a co-first-author manuscript on tiny object detection.
 
 ## News
 
@@ -40,7 +38,7 @@ This is the highest AP on both datasets among the detectors we retrained under t
 
 ## Publications
 
-I mostly work on object detection and segmentation in remote sensing images. <sup>†</sup> denotes equal contribution.
+I work on object detection and segmentation in remote sensing images. I am interested in breaking down why small objects are missed into causes that can be measured, such as feature resolution, candidate position and sensor noise, and in designing components that target those causes directly. <sup>†</sup> denotes equal contribution.
 
 <table>
 <tr>
@@ -82,11 +80,25 @@ I mostly work on object detection and segmentation in remote sensing images. <su
 - **2nd of 13 teams** (2024) and **5th of 17 teams** (2025), preliminaries of the SW-Centered University AI Competition
 - **2nd place**, cloud segmentation in satellite imagery, Kaggle challenge of the Hanbat National University AI course, 2025 · [competition](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
 
+## Projects
+
+- **Cloud segmentation in satellite imagery** (team lead, 2025) · Segments thick clouds, thin clouds and cloud shadows; 2nd place in a course Kaggle challenge (0.8555) · [competition](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
+- **Face anti-spoofing classification** (team lead, 2025) · Separates live and spoofed faces with 98.33% accuracy · [competition](https://www.kaggle.com/competitions/image-classification-hbnu-ai-2025-spring/overview)
+- **Face-recognition smart door lock** (team lead, 2024) · A Raspberry Pi 4 retrofit that recognizes faces, controls the lock and logs access · Python, OpenCV, SQLite, MQTT
+
 ## Experience and education
 
-- **2024.02 – present** &nbsp; Undergraduate researcher, AIM Lab, Hanbat National University
+- **2024.02 – present** &nbsp; Undergraduate researcher, AIM Lab, Hanbat National University (advisor: Prof. Haneol Jang)
 - **2023.03 – present** &nbsp; B.S. student, Department of Computer Engineering, Hanbat National University
+
+More detail is in my [CV](CV_EN.md), also available as a [PDF](cv/KiwonEom_CV_EN.pdf).
+
+## Skills
+
+- **Languages** &nbsp; Python, C, Java
+- **Deep learning** &nbsp; PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn
+- **Infrastructure** &nbsp; Linux multi-GPU servers, Docker, Git, Weights & Biases
 
 ---
 
-<sub>Layout adapted from [Jon Barron](https://jonbarron.info/)'s academic website.</sub>
+<sub>Entry for the 2026 Portfolio Competition of the Department of Computer Engineering, Hanbat National University · Layout adapted from [Jon Barron](https://jonbarron.info/)'s academic website.</sub>

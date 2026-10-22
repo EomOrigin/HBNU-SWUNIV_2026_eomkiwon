@@ -10,3 +10,4 @@ Thumbs.db
 *.ckpt
 work_dirs/
 data/
+cv/fonts/

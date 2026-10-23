@@ -1,29 +1,43 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img alt="Ki-won Eom · Computer vision · Object detection in satellite imagery" src="assets/banner-light.png" width="100%">
+</picture>
 
-# Ki-won Eom &nbsp;<sub>엄기원</sub>
+<p align="center">
+  <a href="https://github.com/EomOrigin"><img src="https://img.shields.io/badge/GitHub-EomOrigin-0969da?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="cv/KiwonEom_CV_EN.pdf"><img src="https://img.shields.io/badge/CV-PDF-b31b1b?style=flat-square" alt="CV"></a>
+  <a href="mailto:eomkiwon1528@gmail.com"><img src="https://img.shields.io/badge/Email-eomkiwon1528%40gmail.com-57606a?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.kaggle.com/kiwoneom"><img src="https://img.shields.io/badge/Kaggle-kiwoneom-20beff?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle"></a>
+  <a href="https://dacon.io/myprofile/497780/home"><img src="https://img.shields.io/badge/DACON-profile-0a3069?style=flat-square" alt="DACON"></a>
+</p>
 
-Undergraduate student, Computer Engineering, Hanbat National University · Undergraduate researcher, AIM Lab
+<p align="center"><b>English</b> · <a href="README.md">한국어</a></p>
 
-[Email](mailto:eomkiwon1528@gmail.com) &nbsp;/&nbsp; [CV](CV_EN.md) &nbsp;/&nbsp; [GitHub](https://github.com/EomOrigin) &nbsp;/&nbsp; [Kaggle](https://www.kaggle.com/kiwoneom) &nbsp;/&nbsp; [DACON](https://dacon.io/myprofile/497780/home)
+Hi there 👋 I'm Ki-won, an undergrad in Computer Engineering at **Hanbat National University** and an undergraduate researcher in the **AIM Lab** (advised by Prof. Haneol Jang) since Feb 2024.
 
-[한국어](README.md) | **English**
+I work on **computer vision**, mostly **object detection in satellite imagery**: optical, aerial and SAR. I like figuring out why a detector fails on a certain kind of image and then fixing exactly that. So far that has turned into **two first-author journal papers** and a co-first-author manuscript, plus a lot of competition time, most recently as an **LG Aimers finalist (96 of 3,393 participants)**.
 
-</div>
+I'm open to **research internships**, **graduate programs** and **AI research engineer roles**. Feel free to reach out!
 
-I am an undergraduate student in Computer Engineering at Hanbat National University and have been an undergraduate researcher in the AIM Lab, advised by Prof. Haneol Jang, since February 2024. I work on **computer vision**, mostly **object detection in satellite imagery**: optical, aerial and SAR. I have published **two first-author papers in KCI-indexed journals** and am preparing a co-first-author manuscript for submission. I also compete regularly, most recently as an **LG Aimers 9th cohort finalist (96 of 3,393 participants)**.
+<p align="center">
+  <img src="https://img.shields.io/badge/LG%20Aimers%209th-finalist%20·%2096%20of%203,393-bf8700?style=flat-square" alt="LG Aimers 9th: finalist, 96 of 3,393">
+  <img src="https://img.shields.io/badge/AI%20SPARK%20Challenge-Grand%20Prize-bf8700?style=flat-square" alt="AI SPARK Challenge: Grand Prize">
+  <img src="https://img.shields.io/badge/National%20Park%20Satellite%20AI%20Challenge-6th%20of%20138-bf8700?style=flat-square" alt="National Park Satellite AI Challenge: 6th of 138"><br>
+  <img src="https://img.shields.io/badge/KCI%20journal%20papers-2%20·%20first%20author-2a78d6?style=flat-square" alt="KCI journal papers: 2, first author">
+  <img src="https://img.shields.io/badge/manuscript-1%20·%20co--first%20author-2a78d6?style=flat-square" alt="Manuscript: 1, co-first author">
+</p>
 
 ## News
 
-- **2026.10** &nbsp; Finished the SPOT-DETR manuscript; preparing to submit it.
-- **2026.10** &nbsp; **6th of 138 teams**, 2026 National Park Satellite Monitoring AI Challenge.
-- **2026.09** &nbsp; **Finalist in the LG Aimers 9th cohort hackathon** (96 of 3,393 participants), 18th of 33 teams in the final; 29th of 1,090 teams online.
-- **2026.03** &nbsp; YOLO-Dos published in the Journal of IKEEE.
-- **2025** &nbsp; ViT-based deepfake detection paper published in the Journal of Digital Forensics.
-- **2025** &nbsp; 16th of 271 teams, 2025 SW-Centered University Digital Competition (AI track).
-- **2024** &nbsp; **Grand Prize**, 6th AI SPARK Challenge (Korea R&D Special Zones).
-- **2024.02** &nbsp; Joined the AIM Lab as an undergraduate researcher.
+- **[Oct 2026]** Finished the SPOT-DETR manuscript. Submitting soon!
+- **[Oct 2026]** Placed **6th of 138 teams** in the 2026 National Park Satellite Monitoring AI Challenge (coastal debris detection).
+- **[Sep 2026]** Made the **LG Aimers 9th cohort final** (96 of 3,393 participants) and finished 18th of 33 teams there. We were 29th of 1,090 teams in the online round.
+- **[Mar 2026]** YOLO-Dos is out in the Journal of IKEEE.
+- **[2025]** Our ViT deepfake detection paper is out in the Journal of Digital Forensics.
+- **[2024]** Won the **Grand Prize** at the 6th AI SPARK Challenge (wildfire detection from satellite imagery).
+- **[Feb 2024]** Joined the AIM Lab.
 
-## Research
+## What I work on
 
 - **Object detection in satellite and aerial images**: tiny, densely packed objects (SPOT-DETR) and speckle-heavy SAR scenes (YOLO-Dos)
 - **Satellite image analysis**: wildfire detection, cloud segmentation, coastal debris detection
@@ -34,44 +48,47 @@ I am an undergraduate student in Computer Engineering at Hanbat National Univers
   <img alt="2024 wildfire detection, 2025 deepfake detection, 2026 YOLO-Dos, 2026 SPOT-DETR" src="assets/research-line-en-light.png" width="100%">
 </picture>
 
-I am interested in breaking down why a detector fails on a given kind of image into causes that can be measured, such as feature resolution, candidate position and sensor noise, and in designing components that target those causes directly.
-
 ## Publications
 
-<sup>†</sup> denotes equal contribution.
+<sup>†</sup> equal contribution
 
 <table>
 <tr>
-<td width="34%" valign="top"><a href="https://doi.org/10.7471/ikeee.2026.30.1.171"><img src="assets/thumbs/yolo_dos.png" width="260" alt="YOLO-Dos"></a></td>
+<td width="30%" valign="top"><a href="https://doi.org/10.7471/ikeee.2026.30.1.171"><img src="assets/thumbs/yolo_dos.png" width="240" alt="YOLO-Dos"></a></td>
 <td valign="top">
-<a href="https://doi.org/10.7471/ikeee.2026.30.1.171"><b>YOLO-Dos: Improving YOLO-Based SAR Object Detection Performance via a Speckle Suppression Module</b></a><br>
+<b>YOLO-Dos: Improving YOLO-based SAR object detection performance via a speckle suppression module</b><br>
 <b>Ki-won Eom</b>, Eunkyung Kim, Haneol Jang<br>
-<i>Journal of IKEEE</i>, 30(1):171–181, 2026 · KCI-indexed<br>
-<a href="https://doi.org/10.7471/ikeee.2026.30.1.171">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003322680">KCI</a>
-<p>Replacing the YOLOv8 input stem with a speckle suppression module (log transform, wavelet split, high-frequency attention) raises <b>mAP@50:95 by 5.75 points</b> and F1 by 3.21 points on HRSID.</p>
+<i>Journal of IKEEE</i>, 30(1):171–181, 2026 · KCI<br>
+<a href="https://doi.org/10.7471/ikeee.2026.30.1.171">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003322680">KCI</a><br>
+<sub>+5.75 mAP@50:95 over YOLOv8 on HRSID</sub>
 </td>
 </tr>
 <tr>
-<td width="34%" valign="top"><a href="https://doi.org/10.22798/KDFS.2025.19.4.116"><img src="assets/thumbs/rwm_deepfake.png" width="260" alt="Region Weight Module"></a></td>
+<td width="30%" valign="top"><a href="https://doi.org/10.22798/KDFS.2025.19.4.116"><img src="assets/thumbs/rwm_deepfake.png" width="240" alt="Region Weight Module"></a></td>
 <td valign="top">
-<a href="https://doi.org/10.22798/KDFS.2025.19.4.116"><b>ViT-based Deepfake Detection via Regional Emphasis Weights on Eyes, Nose, and Mouth</b></a><br>
+<b>ViT-based deepfake detection via regional emphasis weights on eyes, nose, and mouth</b><br>
 <b>Ki-won Eom</b>, Dong-Su Kim, Tae-Woo Oh, Haneol Jang<br>
-<i>Journal of Digital Forensics</i>, 19(4):116–131, 2025 · KCI-indexed<br>
-<a href="https://doi.org/10.22798/KDFS.2025.19.4.116">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243484">KCI</a> / <a href="https://github.com/EomOrigin/HBNU-SWUNIV_2025_eomkiwon">2025 portfolio</a>
-<p>A Region Weight Module adds learnable weights for the eyes, nose and mouth at the ViT patch-embedding stage. On FaceForensics++ it improves <b>ACER by 7.94%</b> and AUC by about 3% over plain ViT.</p>
+<i>Journal of Digital Forensics</i>, 19(4):116–131, 2025 · KCI<br>
+<a href="https://doi.org/10.22798/KDFS.2025.19.4.116">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243484">KCI</a><br>
+<sub>ACER improved by 7.94% over plain ViT on FaceForensics++</sub>
 </td>
 </tr>
 <tr>
-<td width="34%" valign="top"><a href="SPOT-DETR_EN.md"><img src="assets/thumbs/spot_detr.png" width="260" alt="SPOT-DETR"></a></td>
+<td width="30%" valign="top"><a href="SPOT-DETR_EN.md"><img src="assets/thumbs/spot_detr.png" width="240" alt="SPOT-DETR"></a></td>
 <td valign="top">
-<a href="SPOT-DETR_EN.md"><b>SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory</b></a><br>
+<b>SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory</b><br>
 <b>Ki-won Eom</b><sup>†</sup>, Cheoneum Park<sup>†</sup>, Eunkyung Kim, Haneol Jang<br>
 <i>Manuscript in preparation</i>, 2026<br>
-<a href="SPOT-DETR_EN.md">project page</a> / <a href="paper/SPOT_DETR_manuscript_20261022.pdf">manuscript</a>
-<p>Feature refinement and off-grid candidate generation on one stride-4 path give <b>37.6 AP on AI-TOD and 33.3 AP on AI-TOD-v2</b>, the best among the detectors retrained under the same setting.</p>
+<a href="SPOT-DETR_EN.md">project page</a> / <a href="paper/SPOT_DETR_manuscript_20261022.pdf">manuscript</a><br>
+<sub>37.6 AP on AI-TOD, 33.3 AP on AI-TOD-v2, best among the detectors retrained under the same setting</sub>
 </td>
 </tr>
 </table>
+
+<!--
+Conference papers (add when ready)
+- Authors. "Title." Conference, Year.
+-->
 
 ## Projects
 
@@ -81,12 +98,12 @@ I am interested in breaking down why a detector fails on a given kind of image i
 
 Upload a satellite or aerial image and see SPOT-DETR and the SMWG-DETR baseline side by side. Large images are tiled at native resolution, and the score threshold and class filters update the result without rerunning. On this parking scene SPOT-DETR finds 203 vehicles at a 0.5 threshold, the baseline 146.
 
-- **Illegal livestock barn detection** (in progress, 2026)
-- **Cloud segmentation in satellite imagery** (team lead, 2025) · Segments thick clouds, thin clouds and cloud shadows; **2nd place** in a course Kaggle challenge (0.8555)
-- **Face anti-spoofing classification** (team lead, 2025) · Separates live and spoofed faces with 98.33% accuracy
-- **Face-recognition smart door lock** (team lead, 2024) · A Raspberry Pi 4 retrofit that recognizes faces, controls the lock and logs access · Python, OpenCV, SQLite, MQTT
+- **Illegal livestock barn detection** · *in progress, 2026*
+- **Cloud segmentation in satellite imagery** · team lead, 2025 · thick cloud, thin cloud and shadow masks; **2nd place** in a course Kaggle challenge (0.8555)
+- **Face anti-spoofing** · team lead, 2025 · live vs. spoofed faces at 98.33% accuracy
+- **Face-recognition smart door lock** · team lead, 2024 · Raspberry Pi 4, OpenCV, SQLite, MQTT
 
-## Honors and competitions
+## Honors & Competitions
 
 | Result | Competition | Year |
 |---|---|:---:|
@@ -98,20 +115,22 @@ Upload a satellite or aerial image and see SPOT-DETR and the SMWG-DETR baseline 
 | **28th / 219** (top 13%) | [SW-Centered University Digital Competition](https://dacon.io/competitions/official/236253/overview/description) · SW meets generative AI, AI track | 2024 |
 | **2nd** | [Cloud segmentation Kaggle challenge](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview) · Hanbat National University AI course | 2025 |
 
-## Experience and education
+## Experience & Education
 
-- **2024.02 – present** &nbsp; Undergraduate researcher, AIM Lab, Hanbat National University (advisor: Prof. Haneol Jang)
+- **AIM Lab, Hanbat National University** · undergraduate researcher, advised by Prof. Haneol Jang · Feb 2024 – present
   - Research project: Space-layer Intelligent Communication Network Specialized Research Lab (KRIT), Sub-project 5: *intelligent processing of puzzle-type ultra-wide-area satellite imagery*, with Kyung Hee University. SPOT-DETR is linked to this project.
-- **2023.03 – present** &nbsp; B.S. student, Department of Computer Engineering, Hanbat National University
-
-More detail is in my [CV](CV_EN.md), also available as a [PDF](cv/KiwonEom_CV_EN.pdf).
+- **Hanbat National University** · B.S. in Computer Engineering · Mar 2023 – present
 
 ## Skills
 
-- **Languages** &nbsp; Python, C, Java
-- **Deep learning** &nbsp; PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn
-- **Infrastructure** &nbsp; Linux multi-GPU servers, Docker, Git, Weights & Biases
+**Languages** Python · C · Java<br>
+**DL / CV** PyTorch · MMDetection · Ultralytics YOLO · timm · OpenCV · MediaPipe<br>
+**Infra** Linux multi-GPU servers · Docker · Git · Weights & Biases
+
+<!--
+Add when available: Talks & posters / Teaching / Reviewing / Open source
+-->
 
 ---
 
-<sub>Entry for the 2026 Portfolio Competition of the Department of Computer Engineering, Hanbat National University · Layout adapted from [Jon Barron](https://jonbarron.info/)'s academic website.</sub>
+<sub>Entry for the 2026 Portfolio Competition of the Department of Computer Engineering, Hanbat National University</sub>

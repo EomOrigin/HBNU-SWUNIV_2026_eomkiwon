@@ -57,7 +57,7 @@ Computer vision, object detection in satellite imagery (optical, aerial and SAR)
 
 - Web demo comparing SPOT-DETR with the baseline side by side; large images are tiled at native resolution.
 
-**AI-based detection of unpermitted livestock barns (with K-water)** &nbsp;·&nbsp; 17,126 aerial images; YOLO11 ensemble, 90.7% precision, 82.9 mAP@0.5 · 2026 – in progress
+**AI-based detection of unpermitted livestock barns (with K-water)** &nbsp;·&nbsp; barn detection model for aerial imagery · 2026 – in progress
 
 **Cloud segmentation in satellite imagery (team lead)** &nbsp;·&nbsp; 2nd place in a course Kaggle challenge (0.8555) · Sep – Dec 2025
 

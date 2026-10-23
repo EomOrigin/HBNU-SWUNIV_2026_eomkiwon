@@ -139,7 +139,7 @@
         {
           "what": "AI-based detection of unpermitted livestock barns (with K-water)",
           "when": "2026 – in progress",
-          "sub": "17,126 aerial images; YOLO11 ensemble, 90.7% precision, 82.9 mAP@0.5"
+          "sub": "barn detection model for aerial imagery"
         },
         {
           "what": "Cloud segmentation in satellite imagery (team lead)",

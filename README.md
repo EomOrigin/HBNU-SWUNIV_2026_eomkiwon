@@ -16,7 +16,7 @@
 
 - **2026.10** &nbsp; SPOT-DETR 원고 완성, 투고 준비 중
 - **2026.10** &nbsp; 2026 국립공원 위성 모니터링 AI 챌린지 **6위 / 138팀**
-- **2026.09** &nbsp; **LG Aimers 9기 결선 진출**(3,393명 중 96명), 결선 15위 · 온라인 예선 29위 / 1,090팀
+- **2026.09** &nbsp; **LG Aimers 9기 결선 진출**(3,393명 중 96명), 결선 18위 / 33팀 · 온라인 예선 29위 / 1,090팀
 - **2026.03** &nbsp; YOLO-Dos, 전기전자학회논문지 게재
 - **2025** &nbsp; ViT 기반 딥페이크 탐지 논문, 디지털포렌식연구 게재
 - **2025** &nbsp; 2025 SW중심대학 디지털 경진대회 AI부문 16위 / 271팀
@@ -91,7 +91,7 @@
 | 결과 | 대회 | 연도 |
 |---|---|:---:|
 | **대상** | [제6회 연구개발특구 AI SPARK 챌린지](https://aifactory.space/task/2723/overview) · 위성 다분광 영상 기반 산불 탐지 | 2024 |
-| **결선 진출**(3,393명 중 96명) · 결선 **15위** | **LG Aimers 9기 해커톤** · 투구 제구 성공 확률 예측 · [온라인 예선](https://dacon.io/competitions/official/236743/overview/description) 1,090팀 중 29위(상위 3%) · [오프라인 결선](https://dacon.io/competitions/official/236767/overview/description) | 2026 |
+| **결선 진출**(3,393명 중 96명) · 결선 **18위 / 33팀** | **LG Aimers 9기 해커톤** · 투구 제구 성공 확률 예측 · [온라인 예선](https://dacon.io/competitions/official/236743/overview/description) 1,090팀 중 29위(상위 3%) · [오프라인 결선](https://dacon.io/competitions/official/236767/overview/description) | 2026 |
 | **6위 / 138팀**(상위 5%) | [2026 국립공원 위성 모니터링 AI 챌린지](https://aifactory.space/ko/competitions/9307) · 주제 4: 해안 쓰레기 탐지 및 규모 추정 | 2026 |
 | **16위 / 271팀**(상위 6%) | [2025 SW중심대학 디지털 경진대회](https://dacon.io/competitions/official/236473/overview/description) · AI부문 | 2025 |
 | **85위 / 985팀**(상위 9%) | [제3회 풍력발전량 예측 AI 경진대회](https://dacon.io/competitions/official/236727/overview/description) (BARAM 2026) | 2026 |

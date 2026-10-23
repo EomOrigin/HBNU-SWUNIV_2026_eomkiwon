@@ -16,7 +16,7 @@ I am an undergraduate student in Computer Engineering at Hanbat National Univers
 
 - **2026.10** &nbsp; Finished the SPOT-DETR manuscript; preparing to submit it.
 - **2026.10** &nbsp; **6th of 138 teams**, 2026 National Park Satellite Monitoring AI Challenge.
-- **2026.09** &nbsp; **Finalist in the LG Aimers 9th cohort hackathon** (96 of 3,393 participants), 15th in the final; 29th of 1,090 teams online.
+- **2026.09** &nbsp; **Finalist in the LG Aimers 9th cohort hackathon** (96 of 3,393 participants), 18th of 33 teams in the final; 29th of 1,090 teams online.
 - **2026.03** &nbsp; YOLO-Dos published in the Journal of IKEEE.
 - **2025** &nbsp; ViT-based deepfake detection paper published in the Journal of Digital Forensics.
 - **2025** &nbsp; 16th of 271 teams, 2025 SW-Centered University Digital Competition (AI track).
@@ -91,7 +91,7 @@ Upload a satellite or aerial image and see SPOT-DETR and the SMWG-DETR baseline 
 | Result | Competition | Year |
 |---|---|:---:|
 | **Grand Prize** | [6th AI SPARK Challenge](https://aifactory.space/task/2723/overview) (Korea R&D Special Zones) · wildfire detection from multispectral satellite imagery | 2024 |
-| **Finalist** (96 of 3,393 participants) · **15th** in the final | **LG Aimers 9th cohort hackathon** · pitch control prediction · [online round](https://dacon.io/competitions/official/236743/overview/description) 29th of 1,090 teams (top 3%) · [final](https://dacon.io/competitions/official/236767/overview/description) | 2026 |
+| **Finalist** (96 of 3,393 participants) · **18th of 33 teams** in the final | **LG Aimers 9th cohort hackathon** · pitch control prediction · [online round](https://dacon.io/competitions/official/236743/overview/description) 29th of 1,090 teams (top 3%) · [final](https://dacon.io/competitions/official/236767/overview/description) | 2026 |
 | **6th / 138** (top 5%) | [2026 National Park Satellite Monitoring AI Challenge](https://aifactory.space/ko/competitions/9307) · Track 4: coastal debris detection and size estimation | 2026 |
 | **16th / 271** (top 6%) | [2025 SW-Centered University Digital Competition](https://dacon.io/competitions/official/236473/overview/description) · AI track | 2025 |
 | **85th / 985** (top 9%) | [3rd Wind Power Generation Forecasting AI Competition](https://dacon.io/competitions/official/236727/overview/description) (BARAM 2026) | 2026 |

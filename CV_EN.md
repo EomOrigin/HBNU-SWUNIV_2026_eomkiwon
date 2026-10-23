@@ -39,7 +39,7 @@ Computer vision, object detection in satellite imagery (optical, aerial and SAR)
 
 **Grand Prize, 6th AI SPARK Challenge** &nbsp;·&nbsp; wildfire detection from multispectral satellite imagery · 2024
 
-**Finalist (96 of 3,393) · 15th in the final, LG Aimers 9th cohort hackathon** &nbsp;·&nbsp; 29th of 1,090 teams online (top 3%) · 2026
+**Finalist (96 of 3,393) · 18th of 33 teams in the final, LG Aimers 9th cohort hackathon** &nbsp;·&nbsp; 29th of 1,090 teams online (top 3%) · 2026
 
 **6th of 138 teams (top 5%), National Park Satellite Monitoring AI Challenge** &nbsp;·&nbsp; coastal debris · 2026
 

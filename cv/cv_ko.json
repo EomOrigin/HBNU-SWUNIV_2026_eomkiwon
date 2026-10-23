@@ -24,7 +24,7 @@
     {
       "title": "연구 관심",
       "type": "text",
-      "text": "원격탐사 영상(광학·SAR)의 객체 탐지와 분할, 극소 객체 탐지, Detection Transformer"
+      "text": "컴퓨터 비전, 위성 영상 객체 탐지(광학·항공·SAR), 영상 포렌식"
     },
     {
       "title": "학력",
@@ -45,6 +45,7 @@
           "sub": "지도교수: 장한얼 교수",
           "when": "2024.02 – 현재",
           "bullets": [
+            "국방기술진흥연구소 우주계층 지능통신망 특화연구실 5세부 과제(퍼즐형 초광역 공간 위성영상 지능형 처리 연구)에 참여하고 있습니다.",
             "항공 영상 극소 객체 탐지 모델 SPOT-DETR을 설계·구현했습니다(공동 제1저자). 같은 조건으로 다시 학습한 모든 비교 검출기보다 AP가 높았습니다(AI-TOD 37.6, AI-TOD-v2 33.3).",
             "SAR 선박 탐지를 위한 스펙클 억제 모듈 YOLO-Dos를 제안했습니다(제1저자). HRSID에서 YOLOv8보다 mAP@50:95가 5.75%p 높았습니다.",
             "눈·코·입 영역 가중치를 쓰는 ViT 딥페이크 탐지를 제안했습니다(제1저자). FaceForensics++에서 ViT 대비 ACER 7.94%, AUC 약 3%가 개선되었습니다."
@@ -57,15 +58,6 @@
       "type": "pubs",
       "note": "† 공동 제1저자",
       "items": [
-        {
-          "authors": "**엄기원**†, 박천음†, 김은경, 장한얼",
-          "title": "SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory",
-          "venue": "투고 준비 중, 2026",
-          "link": [
-            "프로젝트 페이지",
-            "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR.md"
-          ]
-        },
         {
           "authors": "**엄기원**, 김은경, 장한얼",
           "title": "YOLO-Dos: 스펙클 억제 모듈을 통한 YOLO 기반 SAR 객체 탐지 성능 개선",
@@ -83,6 +75,15 @@
             "DOI",
             "https://doi.org/10.22798/KDFS.2025.19.4.116"
           ]
+        },
+        {
+          "authors": "**엄기원**†, 박천음†, 김은경, 장한얼",
+          "title": "SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory",
+          "venue": "투고 준비 중, 2026",
+          "link": [
+            "프로젝트 페이지",
+            "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR.md"
+          ]
         }
       ]
     },
@@ -96,8 +97,8 @@
           "when": "2024"
         },
         {
-          "what": "온라인 29위 / 1,090팀(상위 3%), 오프라인 본선 15위, LG Aimers 9기 해커톤",
-          "sub": "투구 제구 성공 확률 예측",
+          "what": "결선 진출(3,393명 중 96명) · 결선 15위, LG Aimers 9기 해커톤",
+          "sub": "온라인 예선 1,090팀 중 29위(상위 3%)",
           "when": "2026"
         },
         {
@@ -130,29 +131,30 @@
       "type": "entries",
       "items": [
         {
+          "what": "SPOT-DETR 웹 데모 (캡스톤디자인·졸업작품)",
+          "when": "2026",
+          "bullets": [
+            "SPOT-DETR과 기준 모델의 탐지 결과를 나란히 비교하는 웹 데모로, 큰 영상은 원래 해상도 그대로 타일 추론합니다."
+          ]
+        },
+        {
           "what": "불법 축사 탐지 모델 개발",
           "when": "2026 – 진행 중"
         },
         {
           "what": "위성 영상 구름 분할 (팀장)",
           "when": "2025.09 – 2025.12",
-          "bullets": [
-            "두꺼운 구름, 얇은 구름, 구름 그림자 3종을 분할하는 모델을 학습해 0.8555로 2위를 했습니다. PyTorch."
-          ]
+          "sub": "구름·그림자 3종 분할, 교과 Kaggle 챌린지 2위(0.8555)"
         },
         {
           "what": "얼굴 위조 판별 이미지 분류 (팀장)",
           "when": "2025.03 – 2025.06",
-          "bullets": [
-            "실제 얼굴과 위조 얼굴을 구분하는 분류 모델로 정확도 98.33%를 얻었습니다. PyTorch."
-          ]
+          "sub": "실제·위조 얼굴 분류 정확도 98.33%"
         },
         {
           "what": "얼굴 인식 스마트 도어락 (팀장)",
           "when": "2024.09 – 2024.12",
-          "bullets": [
-            "기존 도어락에 붙이는 장치로, Raspberry Pi 4에서 얼굴을 인식해 GPIO로 잠금장치를 제어하고 출입 기록과 사진을 남깁니다. Python, OpenCV, SQLite, MQTT."
-          ]
+          "sub": "Raspberry Pi 4 · OpenCV · SQLite · MQTT"
         }
       ]
     },

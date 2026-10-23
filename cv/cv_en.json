@@ -24,7 +24,7 @@
     {
       "title": "Research interests",
       "type": "text",
-      "text": "Object detection and segmentation in remote sensing images (optical and SAR), tiny object detection, detection transformers"
+      "text": "Computer vision, object detection in satellite imagery (optical, aerial and SAR), image forensics"
     },
     {
       "title": "Education",
@@ -45,6 +45,7 @@
           "sub": "Advisor: Prof. Haneol Jang",
           "when": "Feb 2024 – present",
           "bullets": [
+            "Research project: Sub-project 5 (intelligent processing of puzzle-type ultra-wide-area satellite imagery) of the Space-layer Intelligent Communication Network Specialized Research Lab (KRIT).",
             "Designed and implemented SPOT-DETR, a detector for tiny objects in aerial images (co-first author). It reaches 37.6 AP on AI-TOD and 33.3 AP on AI-TOD-v2, above every detector retrained under the same protocol.",
             "Proposed YOLO-Dos, a speckle suppression module for SAR ship detection (first author). It raises mAP@50:95 by 5.75 points over YOLOv8 on HRSID.",
             "Proposed region weights for the eyes, nose and mouth in a ViT deepfake detector (first author). On FaceForensics++ it improves ACER by 7.94% and AUC by about 3% over plain ViT."
@@ -57,15 +58,6 @@
       "type": "pubs",
       "note": "† equal contribution",
       "items": [
-        {
-          "authors": "**Ki-won Eom**†, Cheoneum Park†, Eunkyung Kim, Haneol Jang",
-          "title": "SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory",
-          "venue": "Manuscript in preparation, 2026",
-          "link": [
-            "project page",
-            "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR_EN.md"
-          ]
-        },
         {
           "authors": "**Ki-won Eom**, Eunkyung Kim, Haneol Jang",
           "title": "YOLO-Dos: Improving YOLO-based SAR object detection performance via a speckle suppression module",
@@ -83,6 +75,15 @@
             "DOI",
             "https://doi.org/10.22798/KDFS.2025.19.4.116"
           ]
+        },
+        {
+          "authors": "**Ki-won Eom**†, Cheoneum Park†, Eunkyung Kim, Haneol Jang",
+          "title": "SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory",
+          "venue": "Manuscript in preparation, 2026",
+          "link": [
+            "project page",
+            "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR_EN.md"
+          ]
         }
       ]
     },
@@ -96,7 +97,7 @@
           "when": "2024"
         },
         {
-          "what": "15th in the offline final, LG Aimers 9th cohort hackathon",
+          "what": "Finalist (96 of 3,393) · 15th in the final, LG Aimers 9th cohort hackathon",
           "sub": "29th of 1,090 teams online (top 3%)",
           "when": "2026"
         },
@@ -129,29 +130,30 @@
       "type": "entries",
       "items": [
         {
+          "what": "SPOT-DETR web demo (capstone design project)",
+          "when": "2026",
+          "bullets": [
+            "Web demo comparing SPOT-DETR with the baseline side by side; large images are tiled at native resolution."
+          ]
+        },
+        {
           "what": "Illegal livestock barn detection",
           "when": "2026 – in progress"
         },
         {
           "what": "Cloud segmentation in satellite imagery (team lead)",
           "when": "Sep – Dec 2025",
-          "bullets": [
-            "Trained a model that segments thick clouds, thin clouds and cloud shadows; 2nd place with a score of 0.8555. PyTorch."
-          ]
+          "sub": "2nd place in a course Kaggle challenge (0.8555)"
         },
         {
           "what": "Face anti-spoofing classification (team lead)",
           "when": "Mar – Jun 2025",
-          "bullets": [
-            "Classified live and spoofed face images with 98.33% accuracy. PyTorch."
-          ]
+          "sub": "98.33% accuracy on live vs. spoofed faces"
         },
         {
           "what": "Face-recognition smart door lock (team lead)",
           "when": "Sep – Dec 2024",
-          "bullets": [
-            "Retrofit for an existing door lock: on-device face recognition on a Raspberry Pi 4, GPIO lock control, and access logs with photos. Python, OpenCV, SQLite, MQTT."
-          ]
+          "sub": "Raspberry Pi 4 · OpenCV · SQLite · MQTT"
         }
       ]
     },

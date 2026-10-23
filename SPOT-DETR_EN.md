@@ -28,6 +28,8 @@ Vehicles and people in aerial images are often only a few pixels wide. After the
 - AP on very tiny objects (2–8 pixels on a side) rose from 15.7 for the baseline to **20.8**. The smaller the objects, the larger the gain.
 - The top 900 initial candidates cover **67.1%** of very tiny objects instead of 38.5%, and their median center error drops from 1.49 to **1.00 pixel**.
 
+This work is linked to Sub-project 5 (*intelligent processing of puzzle-type ultra-wide-area satellite imagery*) of the Space-layer Intelligent Communication Network Specialized Research Lab (KRIT), and I built a [web demo](#web-demo) comparing the two models as my capstone design project.
+
 ## Problem
 
 Objects in AI-TOD are 12.8 pixels on average. DETR-based detectors such as DINO and RT-DETR use only features with a stride of 8 or more by default. At stride 8, an object 8 pixels wide or smaller falls into one or two cells and mixes with the responses of its neighbors and the background. The top 900 initial candidates of our baseline covered only 38.5% of these objects with an IoU of 0.5 or higher, against 84.5% for tiny objects.
@@ -139,6 +141,12 @@ In the baseline's P₃, adjacent small objects merge into one response within on
 - Misses increase in oblique drone views, where perspective changes object size within one image. We trained without data augmentation, so augmentation that mimics these size changes may reduce them.
 - SPOT-DETR runs at half the speed of the baseline, which is still too slow for real-time use.
 
+## Web demo
+
+![SPOT-DETR web demo comparing SPOT-DETR and SMWG-DETR on a dense parking scene](assets/spot-detr-demo.gif)
+
+Built as my capstone design project. Upload a satellite or aerial image and the demo shows SPOT-DETR and the baseline side by side; large images are tiled into 800×800 crops at native resolution. The score threshold and class filters update the result without rerunning. In the scene above, SPOT-DETR finds 203 vehicles at a 0.5 threshold and the baseline 146. The demo runs on a lab server, so its address is not fixed.
+
 ## My role
 
 As co-first author, I worked on every stage from defining the problem to writing the manuscript.
@@ -147,6 +155,7 @@ As co-first author, I worked on every stage from defining the problem to writing
 - I implemented the X₂ path, SGS, ATOM, candidate selection and local rasterization on top of the SMWG-DETR code base (MMDetection).
 - I retrained and evaluated the nine compared detectors under the same protocol, ran SPOT-DETR with three seeds, and measured the efficiency of all ten models on the same GPU.
 - I made the figures and tables and wrote the manuscript.
+- I built the web demo that compares the two models, as my capstone design project.
 
 The main lesson was to check why performance improved separately from why I designed a module. SGS was meant to suppress background responses, but the analysis showed an almost uniform gate and a gain that came from resolution. I rewrote the explanation in the manuscript to match what we observed. The process is recorded in the [development notes](docs/development.md) (Korean).
 

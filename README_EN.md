@@ -10,49 +10,37 @@ Undergraduate student, Computer Engineering, Hanbat National University · Under
 
 </div>
 
-I am an undergraduate student in Computer Engineering at Hanbat National University and have been an undergraduate researcher in the AIM Lab, advised by Prof. Haneol Jang, since February 2024. I work on finding objects that are only a few pixels wide in satellite and aerial images, using both optical and SAR data. I have published two first-author papers in KCI-indexed journals, and I am preparing to submit SPOT-DETR, a co-first-author manuscript on tiny object detection.
+I am an undergraduate student in Computer Engineering at Hanbat National University and have been an undergraduate researcher in the AIM Lab, advised by Prof. Haneol Jang, since February 2024. I work on **computer vision**, mostly **object detection in satellite imagery**: optical, aerial and SAR. I have published **two first-author papers in KCI-indexed journals** and am preparing a co-first-author manuscript for submission. I also compete regularly, most recently as an **LG Aimers 9th cohort finalist (96 of 3,393 participants)**.
 
 ## News
 
 - **2026.10** &nbsp; Finished the SPOT-DETR manuscript; preparing to submit it.
-- **2026.10** &nbsp; 6th of 138 teams, 2026 National Park Satellite Monitoring AI Challenge.
-- **2026** &nbsp; LG Aimers 9th cohort hackathon: 29th of 1,090 teams online, 15th in the offline final.
+- **2026.10** &nbsp; **6th of 138 teams**, 2026 National Park Satellite Monitoring AI Challenge.
+- **2026.09** &nbsp; **Finalist in the LG Aimers 9th cohort hackathon** (96 of 3,393 participants), 15th in the final; 29th of 1,090 teams online.
 - **2026.03** &nbsp; YOLO-Dos published in the Journal of IKEEE.
 - **2025** &nbsp; ViT-based deepfake detection paper published in the Journal of Digital Forensics.
 - **2025** &nbsp; 16th of 271 teams, 2025 SW-Centered University Digital Competition (AI track).
-- **2024** &nbsp; Grand Prize, 6th AI SPARK Challenge (Korea R&D Special Zones).
+- **2024** &nbsp; **Grand Prize**, 6th AI SPARK Challenge (Korea R&D Special Zones).
 - **2024.02** &nbsp; Joined the AIM Lab as an undergraduate researcher.
 
-## Featured research
+## Research
 
-<a href="SPOT-DETR_EN.md"><img src="assets/figures/Fig1_concept.png" alt="Pipeline comparison between existing DETR-based detectors and SPOT-DETR"></a>
+- **Object detection in satellite and aerial images**: tiny, densely packed objects (SPOT-DETR) and speckle-heavy SAR scenes (YOLO-Dos)
+- **Satellite image analysis**: wildfire detection, cloud segmentation, coastal debris detection
+- **Image forensics**: deepfake detection with Vision Transformers
 
-**[SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory](SPOT-DETR_EN.md)**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/research-line-en-dark.png">
+  <img alt="2024 wildfire detection, 2025 deepfake detection, 2026 YOLO-Dos, 2026 SPOT-DETR" src="assets/research-line-en-light.png" width="100%">
+</picture>
 
-Vehicles and people in aerial images are often only a few pixels wide. In DETR-based detectors they shrink to one or two feature-map cells and rarely line up with candidates that start at cell centers. SPOT-DETR handles both problems on one high-resolution path that starts from the stride-4 feature: SGS refines the feature, and ATOM generates off-grid candidates from it.
-
-| | AI-TOD AP | AI-TOD-v2 AP | AP<sub>vt</sub> (v2) | Very tiny candidate recall |
-|---|:---:|:---:|:---:|:---:|
-| Baseline (SMWG-DETR) | 32.1 | 29.8 | 15.7 | 38.5% |
-| **SPOT-DETR** | **37.6** | **33.3** | **20.8** | **67.1%** |
-
-This is the highest AP on both datasets among the detectors we retrained under the same protocol. As co-first author, I defined the problem, implemented the model, ran the comparisons and wrote the manuscript. The method, full results, analysis and limitations are on the [project page](SPOT-DETR_EN.md).
+I am interested in breaking down why a detector fails on a given kind of image into causes that can be measured, such as feature resolution, candidate position and sensor noise, and in designing components that target those causes directly.
 
 ## Publications
 
-I work on object detection and segmentation in remote sensing images. I am interested in breaking down why small objects are missed into causes that can be measured, such as feature resolution, candidate position and sensor noise, and in designing components that target those causes directly. <sup>†</sup> denotes equal contribution.
+<sup>†</sup> denotes equal contribution.
 
 <table>
-<tr>
-<td width="34%" valign="top"><a href="SPOT-DETR_EN.md"><img src="assets/thumbs/spot_detr.png" width="260" alt="SPOT-DETR"></a></td>
-<td valign="top">
-<a href="SPOT-DETR_EN.md"><b>SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory</b></a><br>
-<b>Ki-won Eom</b><sup>†</sup>, Cheoneum Park<sup>†</sup>, Eunkyung Kim, Haneol Jang<br>
-<i>Manuscript in preparation</i>, 2026<br>
-<a href="SPOT-DETR_EN.md">project page</a> / <a href="paper/SPOT_DETR_manuscript_20261022.pdf">manuscript</a>
-<p>Feature refinement and off-grid candidate generation on one stride-4 path give the highest AP on AI-TOD and AI-TOD-v2 among the retrained detectors.</p>
-</td>
-</tr>
 <tr>
 <td width="34%" valign="top"><a href="https://doi.org/10.7471/ikeee.2026.30.1.171"><img src="assets/thumbs/yolo_dos.png" width="260" alt="YOLO-Dos"></a></td>
 <td valign="top">
@@ -60,7 +48,7 @@ I work on object detection and segmentation in remote sensing images. I am inter
 <b>Ki-won Eom</b>, Eunkyung Kim, Haneol Jang<br>
 <i>Journal of IKEEE</i>, 30(1):171–181, 2026 · KCI-indexed<br>
 <a href="https://doi.org/10.7471/ikeee.2026.30.1.171">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003322680">KCI</a>
-<p>Replacing the YOLOv8 input stem with a speckle suppression module (log transform, wavelet split, high-frequency attention) raises mAP@50:95 by 5.75 points and F1 by 3.21 points on HRSID.</p>
+<p>Replacing the YOLOv8 input stem with a speckle suppression module (log transform, wavelet split, high-frequency attention) raises <b>mAP@50:95 by 5.75 points</b> and F1 by 3.21 points on HRSID.</p>
 </td>
 </tr>
 <tr>
@@ -70,33 +58,50 @@ I work on object detection and segmentation in remote sensing images. I am inter
 <b>Ki-won Eom</b>, Dong-Su Kim, Tae-Woo Oh, Haneol Jang<br>
 <i>Journal of Digital Forensics</i>, 19(4):116–131, 2025 · KCI-indexed<br>
 <a href="https://doi.org/10.22798/KDFS.2025.19.4.116">DOI</a> / <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003243484">KCI</a> / <a href="https://github.com/EomOrigin/HBNU-SWUNIV_2025_eomkiwon">2025 portfolio</a>
-<p>A Region Weight Module adds learnable weights for the eyes, nose and mouth at the ViT patch-embedding stage. On FaceForensics++ it improves ACER by 7.94% and AUC by about 3% over plain ViT.</p>
+<p>A Region Weight Module adds learnable weights for the eyes, nose and mouth at the ViT patch-embedding stage. On FaceForensics++ it improves <b>ACER by 7.94%</b> and AUC by about 3% over plain ViT.</p>
+</td>
+</tr>
+<tr>
+<td width="34%" valign="top"><a href="SPOT-DETR_EN.md"><img src="assets/thumbs/spot_detr.png" width="260" alt="SPOT-DETR"></a></td>
+<td valign="top">
+<a href="SPOT-DETR_EN.md"><b>SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory</b></a><br>
+<b>Ki-won Eom</b><sup>†</sup>, Cheoneum Park<sup>†</sup>, Eunkyung Kim, Haneol Jang<br>
+<i>Manuscript in preparation</i>, 2026<br>
+<a href="SPOT-DETR_EN.md">project page</a> / <a href="paper/SPOT_DETR_manuscript_20261022.pdf">manuscript</a>
+<p>Feature refinement and off-grid candidate generation on one stride-4 path give <b>37.6 AP on AI-TOD and 33.3 AP on AI-TOD-v2</b>, the best among the detectors retrained under the same setting.</p>
 </td>
 </tr>
 </table>
+
+## Projects
+
+**SPOT-DETR web demo** · capstone design project, 2026
+
+<a href="SPOT-DETR_EN.md"><img src="assets/spot-detr-demo.gif" alt="SPOT-DETR web demo comparing SPOT-DETR and SMWG-DETR on a dense parking scene" width="100%"></a>
+
+Upload a satellite or aerial image and see SPOT-DETR and the SMWG-DETR baseline side by side. Large images are tiled at native resolution, and the score threshold and class filters update the result without rerunning. On this parking scene SPOT-DETR finds 203 vehicles at a 0.5 threshold, the baseline 146.
+
+- **Illegal livestock barn detection** (in progress, 2026)
+- **Cloud segmentation in satellite imagery** (team lead, 2025) · Segments thick clouds, thin clouds and cloud shadows; **2nd place** in a course Kaggle challenge (0.8555)
+- **Face anti-spoofing classification** (team lead, 2025) · Separates live and spoofed faces with 98.33% accuracy
+- **Face-recognition smart door lock** (team lead, 2024) · A Raspberry Pi 4 retrofit that recognizes faces, controls the lock and logs access · Python, OpenCV, SQLite, MQTT
 
 ## Honors and competitions
 
 | Result | Competition | Year |
 |---|---|:---:|
 | **Grand Prize** | [6th AI SPARK Challenge](https://aifactory.space/task/2723/overview) (Korea R&D Special Zones) · wildfire detection from multispectral satellite imagery | 2024 |
-| **29th / 1,090** (top 3%) → **15th** in the offline final | LG Aimers 9th cohort hackathon · pitch control success prediction | 2026 |
-| **6th / 138** (top 5%) | [2026 National Park Satellite Monitoring AI Challenge](https://aifactory.space/ko/competitions/9307/leaderboard) · Track 4: coastal debris detection and size estimation | 2026 |
+| **Finalist** (96 of 3,393 participants) · **15th** in the final | **LG Aimers 9th cohort hackathon** · pitch control prediction · [online round](https://dacon.io/competitions/official/236743/overview/description) 29th of 1,090 teams (top 3%) · [final](https://dacon.io/competitions/official/236767/overview/description) | 2026 |
+| **6th / 138** (top 5%) | [2026 National Park Satellite Monitoring AI Challenge](https://aifactory.space/ko/competitions/9307) · Track 4: coastal debris detection and size estimation | 2026 |
 | **16th / 271** (top 6%) | [2025 SW-Centered University Digital Competition](https://dacon.io/competitions/official/236473/overview/description) · AI track | 2025 |
-| **85th / 985** (top 9%) | 3rd Wind Power Generation Forecasting AI Competition (BARAM 2026) | 2026 |
-| **28th / 219** (top 13%) | SW-Centered University Digital Competition · SW meets generative AI, AI track | 2024 |
+| **85th / 985** (top 9%) | [3rd Wind Power Generation Forecasting AI Competition](https://dacon.io/competitions/official/236727/overview/description) (BARAM 2026) | 2026 |
+| **28th / 219** (top 13%) | [SW-Centered University Digital Competition](https://dacon.io/competitions/official/236253/overview/description) · SW meets generative AI, AI track | 2024 |
 | **2nd** | [Cloud segmentation Kaggle challenge](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview) · Hanbat National University AI course | 2025 |
-
-## Projects
-
-- **Illegal livestock barn detection** (in progress, 2026)
-- **Cloud segmentation in satellite imagery** (team lead, 2025) · Segments thick clouds, thin clouds and cloud shadows; 2nd place in a course Kaggle challenge (0.8555) · [competition](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
-- **Face anti-spoofing classification** (team lead, 2025) · Separates live and spoofed faces with 98.33% accuracy · [competition](https://www.kaggle.com/competitions/image-classification-hbnu-ai-2025-spring/overview)
-- **Face-recognition smart door lock** (team lead, 2024) · A Raspberry Pi 4 retrofit that recognizes faces, controls the lock and logs access · Python, OpenCV, SQLite, MQTT
 
 ## Experience and education
 
 - **2024.02 – present** &nbsp; Undergraduate researcher, AIM Lab, Hanbat National University (advisor: Prof. Haneol Jang)
+  - Research project: Space-layer Intelligent Communication Network Specialized Research Lab (KRIT), Sub-project 5: *intelligent processing of puzzle-type ultra-wide-area satellite imagery*, with Kyung Hee University. SPOT-DETR is linked to this project.
 - **2023.03 – present** &nbsp; B.S. student, Department of Computer Engineering, Hanbat National University
 
 More detail is in my [CV](CV_EN.md), also available as a [PDF](cv/KiwonEom_CV_EN.pdf).

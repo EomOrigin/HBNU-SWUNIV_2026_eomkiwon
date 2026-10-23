@@ -15,9 +15,11 @@
 ## 소식
 
 - **2026.10** &nbsp; SPOT-DETR 원고 완성, 투고 준비 중
+- **2026.10** &nbsp; 2026 국립공원 위성 모니터링 AI 챌린지 6위 / 138팀
+- **2026** &nbsp; LG Aimers 9기 해커톤 온라인 29위 / 1,090팀, 오프라인 본선 15위
 - **2026.03** &nbsp; YOLO-Dos, 전기전자학회논문지 게재
 - **2025** &nbsp; ViT 기반 딥페이크 탐지 논문, 디지털포렌식연구 게재
-- **2025** &nbsp; SW중심대학 공동 AI 경진대회 본선 16위 / 271팀
+- **2025** &nbsp; 2025 SW중심대학 디지털 경진대회 AI부문 16위 / 271팀
 - **2024** &nbsp; 제6회 연구개발특구 AI SPARK 챌린지 대상
 - **2024.02** &nbsp; AIM Lab 학부연구생 시작
 
@@ -73,15 +75,21 @@
 </tr>
 </table>
 
-## 수상
+## 수상·대회
 
-- **대상**, 제6회 연구개발특구 AI SPARK 챌린지 (위성 다분광 영상 기반 산불 탐지), 2024 · [대회](https://aifactory.space/task/2723/overview)
-- **본선 16위 / 271팀**, SW중심대학 공동 AI 경진대회, 2025 · [대회](https://dacon.io/competitions/official/236473/overview/description)
-- **예선 2위 / 13팀** (2024), **예선 5위 / 17팀** (2025), SW중심대학 공동 AI 경진대회
-- **2위**, 위성 영상 구름 분할 Kaggle 챌린지 (국립한밭대학교 AI 교과), 2025 · [대회](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
+| 결과 | 대회 | 연도 |
+|---|---|:---:|
+| **대상** | [제6회 연구개발특구 AI SPARK 챌린지](https://aifactory.space/task/2723/overview) · 위성 다분광 영상 기반 산불 탐지 | 2024 |
+| **29위 / 1,090팀**(상위 3%) → 오프라인 본선 **15위** | LG Aimers 9기 해커톤 · 투구 제구 성공 확률 예측 | 2026 |
+| **6위 / 138팀**(상위 5%) | [2026 국립공원 위성 모니터링 AI 챌린지](https://aifactory.space/ko/competitions/9307/leaderboard) · 주제 4: 해안 쓰레기 탐지 및 규모 추정 | 2026 |
+| **16위 / 271팀**(상위 6%) | [2025 SW중심대학 디지털 경진대회](https://dacon.io/competitions/official/236473/overview/description) · AI부문 | 2025 |
+| **85위 / 985팀**(상위 9%) | 제3회 풍력발전량 예측 AI 경진대회 (BARAM 2026) | 2026 |
+| **28위 / 219팀**(상위 13%) | SW중심대학 디지털 경진대회 · SW와 생성 AI의 만남, AI부문 | 2024 |
+| **2위** | [위성 영상 구름 분할 Kaggle 챌린지](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview) · 국립한밭대학교 AI 교과 | 2025 |
 
 ## 프로젝트
 
+- **불법 축사 탐지 모델 개발** (진행 중, 2026)
 - **위성 영상 구름 분할** (팀장, 2025) · 두꺼운 구름, 얇은 구름, 구름 그림자 3종을 분할해 교과 Kaggle 챌린지 2위(0.8555) · [대회](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
 - **얼굴 위조 판별 분류** (팀장, 2025) · 실제 얼굴과 위조 얼굴을 정확도 98.33%로 구분 · [대회](https://www.kaggle.com/competitions/image-classification-hbnu-ai-2025-spring/overview)
 - **얼굴 인식 스마트 도어락** (팀장, 2024) · Raspberry Pi 4에서 얼굴을 인식해 잠금장치를 제어하고 출입 기록을 남기는 장치 · Python, OpenCV, SQLite, MQTT

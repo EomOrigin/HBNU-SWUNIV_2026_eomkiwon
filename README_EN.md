@@ -15,9 +15,11 @@ I am an undergraduate student in Computer Engineering at Hanbat National Univers
 ## News
 
 - **2026.10** &nbsp; Finished the SPOT-DETR manuscript; preparing to submit it.
+- **2026.10** &nbsp; 6th of 138 teams, 2026 National Park Satellite Monitoring AI Challenge.
+- **2026** &nbsp; LG Aimers 9th cohort hackathon: 29th of 1,090 teams online, 15th in the offline final.
 - **2026.03** &nbsp; YOLO-Dos published in the Journal of IKEEE.
 - **2025** &nbsp; ViT-based deepfake detection paper published in the Journal of Digital Forensics.
-- **2025** &nbsp; 16th of 271 teams in the finals of the SW-Centered University AI Competition.
+- **2025** &nbsp; 16th of 271 teams, 2025 SW-Centered University Digital Competition (AI track).
 - **2024** &nbsp; Grand Prize, 6th AI SPARK Challenge (Korea R&D Special Zones).
 - **2024.02** &nbsp; Joined the AIM Lab as an undergraduate researcher.
 
@@ -73,15 +75,21 @@ I work on object detection and segmentation in remote sensing images. I am inter
 </tr>
 </table>
 
-## Honors
+## Honors and competitions
 
-- **Grand Prize**, 6th AI SPARK Challenge (Korea R&D Special Zones), wildfire detection from multispectral satellite imagery, 2024 · [competition](https://aifactory.space/task/2723/overview)
-- **16th of 271 teams**, finals of the SW-Centered University AI Competition, 2025 · [competition](https://dacon.io/competitions/official/236473/overview/description)
-- **2nd of 13 teams** (2024) and **5th of 17 teams** (2025), preliminaries of the SW-Centered University AI Competition
-- **2nd place**, cloud segmentation in satellite imagery, Kaggle challenge of the Hanbat National University AI course, 2025 · [competition](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
+| Result | Competition | Year |
+|---|---|:---:|
+| **Grand Prize** | [6th AI SPARK Challenge](https://aifactory.space/task/2723/overview) (Korea R&D Special Zones) · wildfire detection from multispectral satellite imagery | 2024 |
+| **29th / 1,090** (top 3%) → **15th** in the offline final | LG Aimers 9th cohort hackathon · pitch control success prediction | 2026 |
+| **6th / 138** (top 5%) | [2026 National Park Satellite Monitoring AI Challenge](https://aifactory.space/ko/competitions/9307/leaderboard) · Track 4: coastal debris detection and size estimation | 2026 |
+| **16th / 271** (top 6%) | [2025 SW-Centered University Digital Competition](https://dacon.io/competitions/official/236473/overview/description) · AI track | 2025 |
+| **85th / 985** (top 9%) | 3rd Wind Power Generation Forecasting AI Competition (BARAM 2026) | 2026 |
+| **28th / 219** (top 13%) | SW-Centered University Digital Competition · SW meets generative AI, AI track | 2024 |
+| **2nd** | [Cloud segmentation Kaggle challenge](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview) · Hanbat National University AI course | 2025 |
 
 ## Projects
 
+- **Illegal livestock barn detection** (in progress, 2026)
 - **Cloud segmentation in satellite imagery** (team lead, 2025) · Segments thick clouds, thin clouds and cloud shadows; 2nd place in a course Kaggle challenge (0.8555) · [competition](https://www.kaggle.com/competitions/clouds-segmentation-2025/overview)
 - **Face anti-spoofing classification** (team lead, 2025) · Separates live and spoofed faces with 98.33% accuracy · [competition](https://www.kaggle.com/competitions/image-classification-hbnu-ai-2025-spring/overview)
 - **Face-recognition smart door lock** (team lead, 2024) · A Raspberry Pi 4 retrofit that recognizes faces, controls the lock and logs access · Python, OpenCV, SQLite, MQTT

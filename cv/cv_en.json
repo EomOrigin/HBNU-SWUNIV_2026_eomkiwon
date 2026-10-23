@@ -4,9 +4,21 @@
   "name_alt": "엄기원",
   "headline": "Undergraduate researcher, AIM Lab, Hanbat National University",
   "contacts": [
-    ["Email", "eomkiwon1528@gmail.com", "mailto:eomkiwon1528@gmail.com"],
-    ["GitHub", "github.com/EomOrigin", "https://github.com/EomOrigin"],
-    ["Portfolio", "github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon", "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon"]
+    [
+      "Email",
+      "eomkiwon1528@gmail.com",
+      "mailto:eomkiwon1528@gmail.com"
+    ],
+    [
+      "GitHub",
+      "github.com/EomOrigin",
+      "https://github.com/EomOrigin"
+    ],
+    [
+      "Portfolio",
+      "github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon",
+      "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon"
+    ]
   ],
   "sections": [
     {
@@ -18,7 +30,10 @@
       "title": "Education",
       "type": "entries",
       "items": [
-        {"what": "B.S. in Computer Engineering, Hanbat National University, Daejeon, Korea", "when": "Mar 2023 – present"}
+        {
+          "what": "B.S. in Computer Engineering, Hanbat National University, Daejeon, Korea",
+          "when": "Mar 2023 – present"
+        }
       ]
     },
     {
@@ -46,31 +61,67 @@
           "authors": "**Ki-won Eom**†, Cheoneum Park†, Eunkyung Kim, Haneol Jang",
           "title": "SPOT-DETR: Tiny object detection in aerial images using high-resolution feature refinement and off-grid candidate memory",
           "venue": "Manuscript in preparation, 2026",
-          "link": ["project page", "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR_EN.md"]
+          "link": [
+            "project page",
+            "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon/blob/main/SPOT-DETR_EN.md"
+          ]
         },
         {
           "authors": "**Ki-won Eom**, Eunkyung Kim, Haneol Jang",
           "title": "YOLO-Dos: Improving YOLO-based SAR object detection performance via a speckle suppression module",
           "venue": "Journal of IKEEE, 30(1):171–181, 2026 · KCI-indexed (in Korean)",
-          "link": ["DOI", "https://doi.org/10.7471/ikeee.2026.30.1.171"]
+          "link": [
+            "DOI",
+            "https://doi.org/10.7471/ikeee.2026.30.1.171"
+          ]
         },
         {
           "authors": "**Ki-won Eom**, Dong-Su Kim, Tae-Woo Oh, Haneol Jang",
           "title": "ViT-based deepfake detection via regional emphasis weights on eyes, nose, and mouth",
           "venue": "Journal of Digital Forensics, 19(4):116–131, 2025 · KCI-indexed (in Korean)",
-          "link": ["DOI", "https://doi.org/10.22798/KDFS.2025.19.4.116"]
+          "link": [
+            "DOI",
+            "https://doi.org/10.22798/KDFS.2025.19.4.116"
+          ]
         }
       ]
     },
     {
-      "title": "Honors and awards",
+      "title": "Honors and competitions",
       "type": "entries",
       "items": [
-        {"what": "Grand Prize, 6th AI SPARK Challenge (Korea R&D Special Zones)", "sub": "Wildfire detection from multispectral satellite imagery", "when": "2024"},
-        {"what": "16th of 271 teams, SW-Centered University AI Competition, finals", "when": "2025"},
-        {"what": "5th of 17 teams, SW-Centered University AI Competition, preliminaries", "when": "2025"},
-        {"what": "2nd of 13 teams, SW-Centered University AI Competition, preliminaries", "when": "2024"},
-        {"what": "2nd place, cloud segmentation Kaggle challenge", "sub": "Hanbat National University AI course", "when": "2025"}
+        {
+          "what": "Grand Prize, 6th AI SPARK Challenge",
+          "sub": "wildfire detection from multispectral satellite imagery",
+          "when": "2024"
+        },
+        {
+          "what": "15th in the offline final, LG Aimers 9th cohort hackathon",
+          "sub": "29th of 1,090 teams online (top 3%)",
+          "when": "2026"
+        },
+        {
+          "what": "6th of 138 teams (top 5%), National Park Satellite Monitoring AI Challenge",
+          "sub": "coastal debris",
+          "when": "2026"
+        },
+        {
+          "what": "16th of 271 teams (top 6%), SW-Centered University Digital Competition",
+          "when": "2025"
+        },
+        {
+          "what": "85th of 985 teams (top 9%), Wind Power Forecasting AI Competition (BARAM 2026)",
+          "when": "2026"
+        },
+        {
+          "what": "28th of 219 teams (top 13%), SW-Centered University Digital Competition",
+          "when": "2024"
+        },
+        {
+          "what": "2nd place, cloud segmentation Kaggle challenge",
+          "sub": "Hanbat National University AI course",
+          "when": "2025"
+        }
       ]
     },
     {
@@ -78,19 +129,29 @@
       "type": "entries",
       "items": [
         {
+          "what": "Illegal livestock barn detection",
+          "when": "2026 – in progress"
+        },
+        {
           "what": "Cloud segmentation in satellite imagery (team lead)",
           "when": "Sep – Dec 2025",
-          "bullets": ["Trained a model that segments thick clouds, thin clouds and cloud shadows; 2nd place with a score of 0.8555. PyTorch."]
+          "bullets": [
+            "Trained a model that segments thick clouds, thin clouds and cloud shadows; 2nd place with a score of 0.8555. PyTorch."
+          ]
         },
         {
           "what": "Face anti-spoofing classification (team lead)",
           "when": "Mar – Jun 2025",
-          "bullets": ["Classified live and spoofed face images with 98.33% accuracy. PyTorch."]
+          "bullets": [
+            "Classified live and spoofed face images with 98.33% accuracy. PyTorch."
+          ]
         },
         {
           "what": "Face-recognition smart door lock (team lead)",
           "when": "Sep – Dec 2024",
-          "bullets": ["Retrofit for an existing door lock: on-device face recognition on a Raspberry Pi 4, GPIO lock control, and access logs with photos. Python, OpenCV, SQLite, MQTT."]
+          "bullets": [
+            "Retrofit for an existing door lock: on-device face recognition on a Raspberry Pi 4, GPIO lock control, and access logs with photos. Python, OpenCV, SQLite, MQTT."
+          ]
         }
       ]
     },
@@ -98,16 +159,18 @@
       "title": "Skills",
       "type": "kv",
       "items": [
-        ["Languages", "Python, C, Java"],
-        ["Deep learning", "PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn"],
-        ["Infrastructure", "Linux multi-GPU servers, Docker, Git, Weights & Biases"]
-      ]
-    },
-    {
-      "title": "Activities",
-      "type": "entries",
-      "items": [
-        {"what": "Member, volunteer club ssnb_hbnu, Hanbat National University", "when": "Mar – Aug 2025"}
+        [
+          "Languages",
+          "Python, C, Java"
+        ],
+        [
+          "Deep learning",
+          "PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn"
+        ],
+        [
+          "Infrastructure",
+          "Linux multi-GPU servers, Docker, Git, Weights & Biases"
+        ]
       ]
     }
   ]

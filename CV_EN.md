@@ -34,19 +34,25 @@ Object detection and segmentation in remote sensing images (optical and SAR), ti
 - **Ki-won Eom**, Eunkyung Kim, Haneol Jang. **YOLO-Dos: Improving YOLO-based SAR object detection performance via a speckle suppression module.** *Journal of IKEEE, 30(1):171–181, 2026 · KCI-indexed (in Korean)*. [DOI](https://doi.org/10.7471/ikeee.2026.30.1.171)
 - **Ki-won Eom**, Dong-Su Kim, Tae-Woo Oh, Haneol Jang. **ViT-based deepfake detection via regional emphasis weights on eyes, nose, and mouth.** *Journal of Digital Forensics, 19(4):116–131, 2025 · KCI-indexed (in Korean)*. [DOI](https://doi.org/10.22798/KDFS.2025.19.4.116)
 
-## Honors and awards
+## Honors and competitions
 
-**Grand Prize, 6th AI SPARK Challenge (Korea R&D Special Zones)** &nbsp;·&nbsp; Wildfire detection from multispectral satellite imagery · 2024
+**Grand Prize, 6th AI SPARK Challenge** &nbsp;·&nbsp; wildfire detection from multispectral satellite imagery · 2024
 
-**16th of 271 teams, SW-Centered University AI Competition, finals** &nbsp;·&nbsp; 2025
+**15th in the offline final, LG Aimers 9th cohort hackathon** &nbsp;·&nbsp; 29th of 1,090 teams online (top 3%) · 2026
 
-**5th of 17 teams, SW-Centered University AI Competition, preliminaries** &nbsp;·&nbsp; 2025
+**6th of 138 teams (top 5%), National Park Satellite Monitoring AI Challenge** &nbsp;·&nbsp; coastal debris · 2026
 
-**2nd of 13 teams, SW-Centered University AI Competition, preliminaries** &nbsp;·&nbsp; 2024
+**16th of 271 teams (top 6%), SW-Centered University Digital Competition** &nbsp;·&nbsp; 2025
+
+**85th of 985 teams (top 9%), Wind Power Forecasting AI Competition (BARAM 2026)** &nbsp;·&nbsp; 2026
+
+**28th of 219 teams (top 13%), SW-Centered University Digital Competition** &nbsp;·&nbsp; 2024
 
 **2nd place, cloud segmentation Kaggle challenge** &nbsp;·&nbsp; Hanbat National University AI course · 2025
 
 ## Projects
+
+**Illegal livestock barn detection** &nbsp;·&nbsp; 2026 – in progress
 
 **Cloud segmentation in satellite imagery (team lead)** &nbsp;·&nbsp; Sep – Dec 2025
 
@@ -65,7 +71,3 @@ Object detection and segmentation in remote sensing images (optical and SAR), ti
 - **Languages**: Python, C, Java
 - **Deep learning**: PyTorch, MMDetection, Ultralytics YOLO, timm, OpenCV, MediaPipe, scikit-learn
 - **Infrastructure**: Linux multi-GPU servers, Docker, Git, Weights & Biases
-
-## Activities
-
-**Member, volunteer club ssnb_hbnu, Hanbat National University** &nbsp;·&nbsp; Mar – Aug 2025

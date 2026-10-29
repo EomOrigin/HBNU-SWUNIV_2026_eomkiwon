@@ -1,0 +1,197 @@
+{
+  "lang": "en",
+  "name": "Kiwon Eom",
+  "name_alt": "엄기원",
+  "headline": "Undergraduate researcher, AIM Lab, Hanbat National University",
+  "contacts": [
+    [
+      "Email",
+      "eomkiwon1528@gmail.com",
+      "mailto:eomkiwon1528@gmail.com"
+    ],
+    [
+      "GitHub",
+      "github.com/EomOrigin",
+      "https://github.com/EomOrigin"
+    ],
+    [
+      "Portfolio",
+      "github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon",
+      "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon"
+    ]
+  ],
+  "sections": [
+    {
+      "title": "Research interests",
+      "type": "text",
+      "text": "Computer vision, multimodal learning, deep learning, machine learning, object detection, satellite image processing"
+    },
+    {
+      "title": "Education",
+      "type": "entries",
+      "items": [
+        {
+          "what": "B.S. in Computer Engineering, Hanbat National University, Daejeon, Korea",
+          "when": "Mar 2023 – present"
+        }
+      ]
+    },
+    {
+      "title": "Research experience",
+      "type": "entries",
+      "items": [
+        {
+          "what": "Undergraduate researcher, Artificial Intelligence Multimodal Lab (AIM Lab), Hanbat National University",
+          "sub": "Advisor: Prof. Haneol Jang",
+          "when": "Feb 2024 – present",
+          "bullets": [
+            "AI and computer vision research, mainly on object detection and satellite image processing, focusing on tiny and densely packed objects in large-scale satellite and aerial imagery.",
+            "Developing DETR- and YOLO-based detectors that preserve high-resolution features and suppress image noise, evaluated on public benchmarks through controlled comparisons."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Publications",
+      "type": "pubs",
+      "note": "† equal contribution",
+      "items": [
+        {
+          "authors": "**Kiwon Eom**, Eunkyung Kim, Haneol Jang",
+          "title": "YOLO-Dos: Improving YOLO-based SAR object detection performance via a speckle suppression module",
+          "venue": "Journal of IKEEE, 30(1):171–181, 2026 · KCI-indexed (in Korean)",
+          "link": [
+            "DOI",
+            "https://doi.org/10.7471/ikeee.2026.30.1.171"
+          ]
+        },
+        {
+          "authors": "**Kiwon Eom**, Dong-Su Kim, Tae-Woo Oh, Haneol Jang",
+          "title": "ViT-based deepfake detection via regional emphasis weights on eyes, nose, and mouth",
+          "venue": "Journal of Digital Forensics, 19(4):116–131, 2025 · KCI-indexed (in Korean)",
+          "link": [
+            "DOI",
+            "https://doi.org/10.22798/KDFS.2025.19.4.116"
+          ]
+        },
+        {
+          "authors": "**Kiwon Eom**†, Cheoneum Park†, Eunkyung Kim, Haneol Jang",
+          "title": "Tiny Object Detection in Aerial Images",
+          "venue": "Scientific Reports (SCIE, IF 4.9, Top JCR 14.6%), 2026 · under review"
+        },
+        {
+          "authors": "Gyeom Kim, **Kiwon Eom**, Haneol Jang",
+          "title": "Improving Tiny Object Detection via High-Resolution Feature Refinement",
+          "venue": "Journal of IKEEE, 2026 · under review"
+        },
+        {
+          "authors": "Gyeom Kim, **Kiwon Eom**, Seongmin Pyo, Haneol Jang",
+          "title": "Density-Aware Query Score Adjustment for Tiny Object Detection",
+          "venue": "KIBME2026, Jun 2026"
+        },
+        {
+          "authors": "Gyeom Kim, **Kiwon Eom**, Haneol Jang",
+          "title": "Improving Tiny Object Detection through High-Frequency Enhancement of High-Resolution Features",
+          "venue": "KIBME2026, Nov 2026 · under review"
+        },
+        {
+          "authors": "**Kiwon Eom**, Haneol Jang",
+          "title": "FUSE-DETR: DETR with Frequency-guided Unified Scale Enhancement for Tiny Object Detection",
+          "venue": "KNST 2026 Summer Conference, Jul 2026"
+        },
+        {
+          "authors": "**Kiwon Eom**, Haneol Jang",
+          "title": "Tiny Object Detection in Satellite Images via 4-Level Feature Pyramid Extension of DETR-Based Models",
+          "venue": "IEIE Summer Conference 2026, Jun 2026"
+        },
+        {
+          "authors": "**Kiwon Eom**, Eunkyung Kim, Haneol Jang",
+          "title": "YOLO-Dos: Enhancing YOLO-based SAR Object Detection via a Speckle Suppression Module",
+          "venue": "KIBME 2025 Winter Conference, Dec 2025",
+          "link": [
+            "DBpia",
+            "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12571861"
+          ]
+        },
+        {
+          "authors": "**Kiwon Eom**, Dong-Su Kim, Haneol Jang",
+          "title": "Enhancing ViT-Based Deepfake Detection by Emphasizing Eye, Nose, and Mouth Patches",
+          "venue": "KIBME 2025 Summer Conference, Jun 2025",
+          "link": [
+            "DBpia",
+            "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12288087"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Honors and competitions",
+      "type": "entries",
+      "items": [
+        {
+          "what": "Top 3% (29th/1,090), LG Aimers 9th cohort hackathon, online round",
+          "sub": "finalist (96 of 3,393), 18th/33 in the final",
+          "when": "2026"
+        },
+        {
+          "what": "Top 5% (6th/138), National Park Satellite Monitoring AI Challenge",
+          "sub": "coastal debris",
+          "when": "2026"
+        },
+        {
+          "what": "Top 6% (16th/271), SW-Centered University Digital Competition",
+          "sub": "AI-generated text detection",
+          "when": "2025"
+        },
+        {
+          "what": "Top 9% (85th/985), Wind Power Forecasting AI Competition (BARAM 2026)",
+          "when": "2026"
+        },
+        {
+          "what": "Top 13% (28th/219), SW-Centered University Digital Competition",
+          "sub": "fake voice detection",
+          "when": "2024"
+        },
+        {
+          "what": "1st place, cloud segmentation Kaggle challenge (HBNU AI course)",
+          "when": "2025"
+        },
+        {
+          "what": "1st place, image classification (face anti-spoofing) Kaggle challenge (HBNU AI course)",
+          "when": "2025"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "type": "entries",
+      "items": [
+        {
+          "what": "Intelligent processing of puzzle-type ultra-wide-area satellite imagery",
+          "sub": "KRIT Specialized Research Lab, Sub-project 5 · dataset analysis, DETR-based network design, evaluation",
+          "when": "2026 – present"
+        },
+        {
+          "what": "AI-based detection of unpermitted livestock barns (with K-water)",
+          "sub": "barn detection models for a K-water pilot service",
+          "when": "2026 – present"
+        },
+        {
+          "what": "Tiny object detection in satellite and aerial imagery (capstone design, TOD team)",
+          "sub": "web demo development and deployment",
+          "when": "2026 – present"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "type": "kv",
+      "items": [
+        [
+          "Tools",
+          "Python, C, Java · PyTorch, MMDetection, Ultralytics YOLO, OpenCV · Linux, Docker, Git, W&B"
+        ]
+      ]
+    }
+  ]
+}

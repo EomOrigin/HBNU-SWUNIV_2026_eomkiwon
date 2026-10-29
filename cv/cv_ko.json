@@ -1,0 +1,199 @@
+{
+  "lang": "ko",
+  "name": "엄기원",
+  "name_alt": "Kiwon Eom",
+  "headline": "국립한밭대학교 컴퓨터공학과 학부생 · AIM Lab 학부연구생",
+  "contacts": [
+    [
+      "Email",
+      "eomkiwon1528@gmail.com",
+      "mailto:eomkiwon1528@gmail.com"
+    ],
+    [
+      "GitHub",
+      "github.com/EomOrigin",
+      "https://github.com/EomOrigin"
+    ],
+    [
+      "포트폴리오",
+      "github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon",
+      "https://github.com/EomOrigin/HBNU-SWUNIV_2026_eomkiwon"
+    ]
+  ],
+  "sections": [
+    {
+      "title": "연구 관심",
+      "type": "text",
+      "text": "컴퓨터 비전, 멀티모달 학습, 딥러닝, 머신러닝, 객체 탐지, 위성 영상 처리"
+    },
+    {
+      "title": "학력",
+      "type": "entries",
+      "items": [
+        {
+          "what": "국립한밭대학교 컴퓨터공학과 학사과정",
+          "when": "2023.03 – 현재"
+        }
+      ]
+    },
+    {
+      "title": "연구 경력",
+      "type": "entries",
+      "items": [
+        {
+          "what": "학부연구생, 인공지능멀티모달 연구실(AIM Lab), 국립한밭대학교",
+          "sub": "지도교수: 장한얼 교수",
+          "when": "2024.02 – 현재",
+          "bullets": [
+            "객체 탐지와 위성 영상 처리를 중심으로 AI·컴퓨터 비전 연구를 하고 있으며, 특히 대규모 위성·항공 영상에서 작고 밀집한 객체를 탐지하는 데 집중하고 있습니다.",
+            "고해상도 특징을 보존하고 영상 잡음을 억제하는 DETR·YOLO 기반 검출기를 개발하고, 공개 벤치마크에서 통제된 비교 실험으로 평가합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "논문",
+      "type": "pubs",
+      "note": "† 공동 제1저자",
+      "items": [
+        {
+          "authors": "**엄기원**, 김은경, 장한얼",
+          "title": "YOLO-Dos: 스펙클 억제 모듈을 통한 YOLO 기반 SAR 객체 탐지 성능 개선",
+          "venue": "전기전자학회논문지, 30(1), 171–181, 2026 · KCI 등재",
+          "link": [
+            "DOI",
+            "https://doi.org/10.7471/ikeee.2026.30.1.171"
+          ]
+        },
+        {
+          "authors": "**엄기원**, 김동수, 오태우, 장한얼",
+          "title": "눈·코·입 영역 강조 가중치를 활용한 ViT 기반 딥페이크 탐지 기법 연구",
+          "venue": "디지털포렌식연구, 19(4), 116–131, 2025 · KCI 등재",
+          "link": [
+            "DOI",
+            "https://doi.org/10.22798/KDFS.2025.19.4.116"
+          ]
+        },
+        {
+          "authors": "**엄기원**†, 박천음†, 김은경, 장한얼",
+          "title": "Tiny Object Detection in Aerial Images",
+          "venue": "Scientific Reports (SCIE, IF 4.9, Top JCR 14.6%), 2026 · 심사 중"
+        },
+        {
+          "authors": "김겸, **엄기원**, 장한얼",
+          "title": "Improving Tiny Object Detection via High-Resolution Feature Refinement",
+          "venue": "전기전자학회논문지, 2026 · 심사 중"
+        },
+        {
+          "authors": "김겸, **엄기원**, 표성민, 장한얼",
+          "title": "Density-Aware Query Score Adjustment for Tiny Object Detection",
+          "venue": "KIBME2026, 2026.06"
+        },
+        {
+          "authors": "김겸, **엄기원**, 장한얼",
+          "title": "Improving Tiny Object Detection through High-Frequency Enhancement of High-Resolution Features",
+          "venue": "KIBME2026, 2026.11 · 심사 중"
+        },
+        {
+          "authors": "**엄기원**, 장한얼",
+          "title": "FUSE-DETR: 고해상도 특징 보정을 통한 위성영상 내 초소형 객체 탐지 성능 향상",
+          "venue": "한국해군과학기술학회 2026 하계학술대회, 2026.07"
+        },
+        {
+          "authors": "**엄기원**, 장한얼",
+          "title": "DETR 기반 4-Level Feature Pyramid 확장을 통한 위성영상 내 초소형 객체 탐지 성능 향상",
+          "venue": "대한전자공학회 2026 하계종합학술대회, 2026.06"
+        },
+        {
+          "authors": "**엄기원**, 김은경, 장한얼",
+          "title": "YOLO-Dos: 스펙클 억제 모듈을 통한 YOLO 기반 SAR 객체 탐지 성능 향상",
+          "venue": "한국방송·미디어공학회 2025 동계학술대회, 2025.12",
+          "link": [
+            "DBpia",
+            "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12571861"
+          ]
+        },
+        {
+          "authors": "**엄기원**, 김동수, 장한얼",
+          "title": "ViT 기반 딥페이크 탐지를 위한 눈, 코, 입 영역 강조 기법 연구",
+          "venue": "한국방송·미디어공학회 2025 하계학술대회, 2025.06",
+          "link": [
+            "DBpia",
+            "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12288087"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "수상·대회",
+      "type": "entries",
+      "items": [
+        {
+          "what": "상위 3%(29위 / 1,090팀), LG Aimers 9기 해커톤 온라인 예선",
+          "sub": "결선 진출(3,393명 중 96명), 결선 18위 / 33팀",
+          "when": "2026"
+        },
+        {
+          "what": "상위 5%(6위 / 138팀), 2026 국립공원 위성 모니터링 AI 챌린지",
+          "sub": "해안 쓰레기 탐지 및 규모 추정",
+          "when": "2026"
+        },
+        {
+          "what": "상위 6%(16위 / 271팀), 2025 SW중심대학 디지털 경진대회 AI부문",
+          "sub": "생성형 AI 작성 글 판별",
+          "when": "2025"
+        },
+        {
+          "what": "상위 9%(85위 / 985팀), 제3회 풍력발전량 예측 AI 경진대회(BARAM 2026)",
+          "when": "2026"
+        },
+        {
+          "what": "상위 13%(28위 / 219팀), SW중심대학 디지털 경진대회 AI부문",
+          "sub": "SW와 생성 AI의 만남 · 가짜 음성 탐지",
+          "when": "2024"
+        },
+        {
+          "what": "1위, 위성 영상 구름 분할 Kaggle 챌린지",
+          "sub": "국립한밭대학교 AI 교과",
+          "when": "2025"
+        },
+        {
+          "what": "1위, 이미지 분류(얼굴 위조 판별) Kaggle 챌린지",
+          "sub": "국립한밭대학교 AI 교과",
+          "when": "2025"
+        }
+      ]
+    },
+    {
+      "title": "프로젝트",
+      "type": "entries",
+      "items": [
+        {
+          "what": "퍼즐형 초광역 공간 위성영상 지능형 처리 연구",
+          "sub": "우주계층 지능통신망 특화연구실(KRIT) 5세부 · 데이터셋 분석, DETR 기반 극소 객체 탐지 네트워크 설계, 성능 평가",
+          "when": "2026 – 현재"
+        },
+        {
+          "what": "AI 기반 무허가 축사 탐지 (한국수자원공사 협업)",
+          "sub": "K-water 시범 서비스용 축사 탐지 모델 개발",
+          "when": "2026 – 현재"
+        },
+        {
+          "what": "위성·항공 영상 극소 객체 탐지 (캡스톤디자인, TOD 팀)",
+          "sub": "위성 영상 극소 객체 탐지 웹 데모 개발 및 배포",
+          "when": "2026 – 현재"
+        }
+      ]
+    },
+    {
+      "title": "기술",
+      "type": "kv",
+      "items": [
+        [
+          "기술",
+          "Python, C, Java · PyTorch, MMDetection, Ultralytics YOLO, OpenCV · Linux, Docker, Git, W&B"
+        ]
+      ]
+    }
+  ]
+}
